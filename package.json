@@ -26,7 +26,7 @@
         "postinstall": "pnpm updateArrpcDB"
     },
     "dependencies": {
-        "arrpc": "github:OpenAsar/arrpc#2234e9c9111f4c42ebcc3aa6a2215bfd979eef77",
+        "arrpc": "github:teodorjuravlea/arrpc#cecf18312c2461d43b79465e12bd2a5d1543569f",
         "electron-updater": "^6.3.9"
     },
     "optionalDependencies": {
