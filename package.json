@@ -115,12 +115,14 @@
                 }
             ],
             "desktop": {
-                "Name": "Vesktop",
-                "GenericName": "Internet Messenger",
-                "Type": "Application",
-                "Categories": "Network;InstantMessaging;Chat;",
-                "Keywords": "discord;vencord;electron;chat;",
-                "MimeType": "x-scheme-handler/discord"
+                "entry": {
+                    "Name": "Vesktop",
+                    "GenericName": "Internet Messenger",
+                    "Type": "Application",
+                    "Categories": "Network;InstantMessaging;Chat;",
+                    "Keywords": "discord;vencord;electron;chat;",
+                    "MimeType": "x-scheme-handler/discord"
+                }
             }
         },
         "mac": {
