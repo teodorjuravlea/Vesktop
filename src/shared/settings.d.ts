@@ -28,6 +28,7 @@ export interface Settings {
     splashTheming?: boolean;
     splashColor?: string;
     splashBackground?: string;
+    splashPixelated?: boolean;
 
     spellCheckLanguages?: string[];
 
@@ -58,4 +59,9 @@ export interface State {
     linuxAutoStartEnabled?: boolean;
 
     vencordDir?: string;
+
+    updater?: {
+        ignoredVersion?: string;
+        snoozeUntil?: number;
+    };
 }
