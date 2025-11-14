@@ -31,8 +31,8 @@ export function createFirstLaunchTour() {
         transparent: false,
         frame: true,
         autoHideMenuBar: true,
-        height: 470,
-        width: 550
+        height: 550,
+        width: 600
     });
 
     makeLinksOpenExternally(win);
@@ -44,7 +44,6 @@ export function createFirstLaunchTour() {
         if (!msg.startsWith("form:")) return;
         const data = JSON.parse(msg.slice(5)) as Data;
 
-        console.log(data);
         State.store.firstLaunch = false;
         Settings.store.discordBranch = data.discordBranch;
         Settings.store.minimizeToTray = !!data.minimizeToTray;
